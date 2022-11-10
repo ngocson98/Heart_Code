@@ -138,6 +138,7 @@ def draw(main: Tk, render_canvas: Canvas, render_heart: Heart, render_frame=0):
 if __name__ == '__main__':
     root = Tk()
     canvas = Canvas(root, bg='black', height=CANVAS_HEIGHT, width=CANVAS_WIDTH)
+    root.title("I LOVE YOU")
     canvas.pack()
     heart = Heart()
     draw(root, canvas, heart)
